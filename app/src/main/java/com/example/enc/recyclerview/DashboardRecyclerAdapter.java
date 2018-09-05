@@ -27,8 +27,8 @@ public class DashboardRecyclerAdapter extends RecyclerView.Adapter<DashboardRecy
     @Override
     public DashboardAdapterViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
 //        LayoutInflater layoutInflater = LayoutInflater.from(context);
-//        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        LayoutInflater layoutInflater = ((DashboardActivity)context).getLayoutInflater();
+        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+//        LayoutInflater layoutInflater = ((DashboardActivity)context).getLayoutInflater();
         View view = layoutInflater.inflate(R.layout.recycle_layout,viewGroup,false);
         return new DashboardAdapterViewHolder(view);
     }
