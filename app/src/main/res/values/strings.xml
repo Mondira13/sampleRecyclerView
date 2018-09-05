@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <string-array name="item_names">
+        <item> Home </item>
+        <item> My Account </item>
+        <item> Setting </item>
+        <item> Weather </item>
+        <item> Call </item>
+        <item> Mail </item>
+        <item> Gallery </item>
+        <item> Music </item>
+        <item> Silent </item>
+        <item> Shutdown </item>
+        <item> Home </item>
+        <item> My Account </item>
+        <item> Setting </item>
+        <item> Weather </item>
+        <item> Call </item>
+        <item> Mail </item>
+        <item> Gallery </item>
+        <item> Music </item>
+        <item> Silent </item>
+        <item> Shutdown </item>
+
+    </string-array>
+</resources>
